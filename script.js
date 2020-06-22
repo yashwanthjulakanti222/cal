@@ -15,7 +15,6 @@ function format(num){
     var result=n.toLocaleString("en")
     return result;
 }
-printoutput("67890");
 function revnum(num){
     return Number(num.replace(/,/g,''));
 }
