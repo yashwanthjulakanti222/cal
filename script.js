@@ -8,7 +8,13 @@ function getoutput(){
     return document.getElementById("output-value").innerText;
 }
 function printoutput(num){
-    document.getElementById("output-value").innerText=format(num);
+     if(num==""){
+        
+        document.getElementById("output-value").innerText="";
+    }
+    else{
+        document.getElementById("output-value").innerText=format(num);
+    }
 }
 function format(num){
     var n=Number(num)
