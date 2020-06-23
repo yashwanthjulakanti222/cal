@@ -29,7 +29,7 @@ for(var i=0; i<a.length;i++){
     a[i].addEventListener('click',function(){
         if(this.id=="clear"){
             printhistory("");
-            printoutput("")
+            printoutput("0")
         }
         else if(this.id=="backspace"){
             var t=revnum(getoutput()).toString();
